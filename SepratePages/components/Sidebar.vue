@@ -293,7 +293,7 @@
     </div>
     <!-- input section -->
     <div class="inputSection">
-      <input type="text" v-model="inputFieldValue" v-on:keyup.enter="inputGiven" autofocus />
+      <input type="text" v-model="inputFieldValue" v-on:keyup.enter="inputGiven" placeholder="Ask ezBarista" autofocus />
       <vscode-button @click="inputGiven">
         <img src="@/media/send.png" alt="" style="filter: invert(1); margin: 0;">
       </vscode-button>
